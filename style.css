@@ -67,7 +67,7 @@ nav ul li a:hover{
     background-image: url(images/back.jpg);
     background-size: cover;
     background-position: center;
-    margin-top: -20px;
+    margin-top: -10px;
     padding-top: 0px;
 }
 
@@ -381,13 +381,17 @@ nav .fas{
     display: none;
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 800px){
     .firstSection{
         background-image: url(images/back.jpg);
+        padding-top: 100px;
     }
     #intro{
         
-        font-size: 16px;
+        font-size: 25px;
+    }
+    #element{
+        font-size: 30px;
     }
     
     nav .fas{
