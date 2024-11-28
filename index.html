@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simran Portfolio</title>
+    <link rel="stylesheet" href = "style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <div class = "left">
+                <img src="images/logo.png" class="logo">
+             </div>
+            <div class = "right">  </div>
+            <ul>
+                <li><a href="#firstSection">Home</a></li>
+                <li><a href="#aboutSection">About</a></li>
+                <li><a href="#serviceSection">Services</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+
+    </header>
+
+    <main>
+    <!-- ---------HOME------- -->
+        <section class = "firstSection" id="firstSection">
+            <div class = "intro" id = "intro" style="font-size:3vw">
+                <div id="intro">Hi, My name is <span class = "purple">Simran</span></div>
+                <div id = "intro" >and I am a passionate </div>
+                <span id="element"></span>
+            </div>
+        </section>
+
+    <!----------ABOUT----------->
+
+    <section class="aboutSection" id="aboutSection">
+        <div class="imgAbout">
+            <div class="picSection">
+                <div class="about-col-1">
+                    <img src="images/mypic.png" style = "width:100%;height:auto;">
+                </div>
+                <div class="infoAbout">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a recent Applied Computer Science graduate with a passion for creating innovative solutions through programming and data analysis. With experience in developing projects like hospital management systems and movie recommendation platforms, I enjoy solving problems and working collaboratively. My background also includes roles in technical support and team leadership, where I honed my skills in communication and delivering great results.</p>
+    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Data Analyst</span><br>Data Fetching/Data Cleaning/Data Anlaysis/Data Visualization</li>
+                            <li><span>Web Developer</span><br>HTML/CSS/JavaScript</li>
+                            <li><span>Progamming Language</span><br>Java/Python/SQL/JavaScript/PHP/C#</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2024 - Current</span><br>Contributer- AI Trainer at Outlier AI</li>
+                            <li><span>2023 - 2024</span><br>Operational Specialist at SkipTheDishes</li>
+                            <li><span>2022- 2024</span><br>Customer Service Representative</li>
+                
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022-2024</span><br>Bachelor's in Science in Applied Computer Science</li>
+                            <li><span>(University of Winnipeg)</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ---------services---------------- -->
+<section class="serviceSection" id="serviceSection">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Web Design</h2>
+                <p>I create visually appealing and user-friendly websites that combine modern design with seamless functionality.</p>
+                
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>Data Analysis</h2>
+                <p>I specialize in transforming complex data into actionable insights through advanced analysis and visualization techniques.</p>
+                
+            </div>
+            <div>
+                <i class="fab fa-app-store"></i>
+                <h2>Application Development</h2>
+                <p>I design and develop efficient, user-centric applications that solve real-world problems and enhance user experiences.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ----------portfolio------------ -->
+<section class="portfolio" id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="/images/hms.jpg">
+                <div class="layer">
+                    <h3>MediTrack-Hospital Management System</h3>
+                    <p>This is an innovative Java-based hospital management system  to simplify and improve the management of patient and doctor information.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/images/sales.jpeg">
+                <div class="layer">
+                    <h3>Sales Dashboard in Power BI</h3>
+                    <p>I designed an interactive Power BI dashboard for sales analysis Power BI sales dashboard to track revenue, spot trends, and make forecasting simple for better business decisions.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/music.webp">
+                <div class="layer">
+                    <h3>Movie recommendationendation System</h3>
+                    <p>Developed a content-based movie recommendation system  that used collaborative filtering and data analysis tools like Pandas and NumPy to suggest personalized options.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ----------contact------------- -->
+<section class="contact" id="contact">
+    <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i> deep47simran@gmail.com</p>
+                <p class="linkedin"><a href="https://linkedin.com/in/simrandeep17/">LinkedIn</a> </p>
+
+                
+                <a href="images/Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    
+</section>
+       
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
