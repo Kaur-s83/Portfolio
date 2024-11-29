@@ -453,7 +453,7 @@ form .btn2{
     .services-list {
         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
         grid-gap: 20px;
-        max-width:250px;
+        max-width:350px;
     }
 
     .services-list div {
@@ -468,7 +468,7 @@ form .btn2{
 
     .work img {
         height: 200px;
-        width: 250px;
+        width: 300px;
     }
 
     .layer {
