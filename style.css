@@ -463,7 +463,7 @@ form .btn2{
     }
 
     .work-list {
-        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
         grid-gap: 20px;
         max-width:400px;
     }
