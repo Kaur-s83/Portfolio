@@ -435,28 +435,53 @@ nav .fas{
     }
     .work-list {
         grid-template-columns: 1fr; /* Single column layout */
-        grid-gap: 20px;
+        grid-gap: 20px; /* Reduce gap between items */
+    }
+    .work {
+        border-radius: 10px;
+        overflow: hidden;
+        max-height: 400px; /* Constrain the overall height of each work box */
     }
     .work img {
-        height: 220px; /* Adjust image height for smaller screens */
+        height: auto; /* Allow the image to resize based on content */
+        max-height: 200px; /* Ensure images don’t dominate the work box */
     }
     .layer {
-        padding: 10px 20px; /* Adjust padding for smaller content */
-        font-size: 12px; /* Smaller text size for better readability */
+        padding: 10px 20px;
+        font-size: 12px;
+        overflow-y: auto; /* Add scroll if content overflows */
+        max-height: 100%; /* Ensure content doesn't exceed box dimensions */
     }
     .layer h3 {
-        font-size: 16px; /* Adjust heading size */
+        font-size: 16px;
+        line-height: 1.4; /* Improve readability */
+        margin-bottom: 10px;
+        word-wrap: break-word; /* Break long words */
+    }
+    .layer p {
+        font-size: 14px;
+        line-height: 1.5; /* Improve readability */
+        margin-bottom: 10px;
     }
     .layer a {
-        width: 50px;
-        height: 50px;
+        margin-top: 10px;
+        color: #ff004f;
+        text-decoration: none;
         font-size: 14px;
         line-height: 50px;
+        background: #fff;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        text-align: center;
+        display: inline-block;
     }
     .btn {
         width: 80%; /* Button width to fit small screens */
-        padding: 12px 30px; /* Adjust padding */
-        font-size: 14px; /* Adjust font size */
+        padding: 12px 30px;
+        font-size: 14px;
+        text-align: center;
+        margin: 20px auto; /* Center the button */
     }
     
 }
