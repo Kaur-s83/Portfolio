@@ -107,7 +107,20 @@ nav ul li a:hover{
     padding: 50px 0;
     color: #ababab;   
 }
+.picSection{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;   
+}
 
+.about-col-1{
+    flex-basis: 35%;
+}
+.about-col-1 img{
+    width: 100%;
+    border-radius: 15px;
+    
+}
 .infoAbout{
     flex-basis: 60%;
     margin-top: 100px;
@@ -229,7 +242,7 @@ nav ul li a:hover{
 }
 .work img{
     width: 100%;
-    height: 250px;
+    height: 225px;
     border-radius: 10px;
     display: block;
     transition: transform 0.5s;
@@ -247,7 +260,7 @@ nav ul li a:hover{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 0px 40px;
+    padding: 0 40px;
     text-align: center;
     font-size: 14px;
    transition: height 0.5s;
@@ -255,7 +268,6 @@ nav ul li a:hover{
 .layer h3{
     font-weight: 500;
     margin-bottom: 20px;
-    margin-top: 10px;
 }
 .layer a{
     margin-top: 20px;
@@ -412,7 +424,7 @@ nav .fas{
         cursor: pointer;
     }
     .sub-title{
-        font-size: 60px;
+        font-size: 40px;
     }
     .about-col-1, .about-col-2{
         flex-basis: 100%;
@@ -431,62 +443,6 @@ nav .fas{
         flex-basis: 100%;
     }
     
-     .portfolio {
-        padding: 20px;
-    }
-    .work-list {
-        grid-template-columns: 1fr; /* Single column layout */
-        grid-gap: 20px; /* Reduce gap between items */
-    }
-    .work {
-        border-radius: 10px;
-        overflow: hidden;
-        max-height: 400px; /* Constrain the overall height of each work box */
-        max-width: 200px
-    }
-    .work img {
-        height: auto; /* Allow the image to resize based on content */
-        max-height: 200px; /* Ensure images don’t dominate the work box */
-        max-width: 180px
-    }
-    .layer {
-        padding: 10px 20px;
-        font-size: 12px;
-        overflow-y: auto; /* Add scroll if content overflows */
-        max-height: 100%; /* Ensure content doesn't exceed box dimensions */
-        max-width:100%;
-    }
-    .layer h3 {
-        font-size: 16px;
-        line-height: 1.4; /* Improve readability */
-        margin-bottom: 10px;
-        word-wrap: break-word; /* Break long words */
-    }
-    .layer p {
-        font-size: 14px;
-        line-height: 1.5; /* Improve readability */
-        margin-bottom: 10px;
-    }
-    .layer a {
-        margin-top: 10px;
-        color: #ff004f;
-        text-decoration: none;
-        font-size: 14px;
-        line-height: 50px;
-        background: #fff;
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        text-align: center;
-        display: inline-block;
-    }
-    .btn {
-        width: 80%; /* Button width to fit small screens */
-        padding: 12px 30px;
-        font-size: 14px;
-        text-align: center;
-        margin: 20px auto; /* Center the button */
-    }
 }
 
 #msg{
