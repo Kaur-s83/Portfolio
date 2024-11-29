@@ -382,6 +382,10 @@ form .btn2{
 
 /* -----------------css for small screens--------- */
 @media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+        padding: 0 5px;
+    }
     .firstSection{
         background-image: url(images/back.jpg);
         padding-top: 100px;
