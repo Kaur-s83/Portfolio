@@ -430,6 +430,34 @@ nav .fas{
     .contact-left, .contact-right{
         flex-basis: 100%;
     }
+    .portfolio {
+        padding: 20px;
+    }
+    .work-list {
+        grid-template-columns: 1fr; /* Single column layout */
+        grid-gap: 20px;
+    }
+    .work img {
+        height: 200px; /* Adjust image height for smaller screens */
+    }
+    .layer {
+        padding: 10px 20px; /* Adjust padding for smaller content */
+        font-size: 12px; /* Smaller text size for better readability */
+    }
+    .layer h3 {
+        font-size: 16px; /* Adjust heading size */
+    }
+    .layer a {
+        width: 50px;
+        height: 50px;
+        font-size: 14px;
+        line-height: 50px;
+    }
+    .btn {
+        width: 80%; /* Button width to fit small screens */
+        padding: 12px 30px; /* Adjust padding */
+        font-size: 14px; /* Adjust font size */
+    }
     
 }
 
