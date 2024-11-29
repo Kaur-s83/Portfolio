@@ -438,7 +438,7 @@ nav .fas{
         grid-gap: 20px;
     }
     .work img {
-        height: 200px; /* Adjust image height for smaller screens */
+        height: 220px; /* Adjust image height for smaller screens */
     }
     .layer {
         padding: 10px 20px; /* Adjust padding for smaller content */
