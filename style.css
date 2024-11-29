@@ -441,6 +441,7 @@ nav .fas{
         border-radius: 10px;
         overflow: hidden;
         max-height: 400px; /* Constrain the overall height of each work box */
+        max-height: 200px; 
     }
     .work img {
         height: auto; /* Allow the image to resize based on content */
