@@ -430,6 +430,37 @@ nav .fas{
     .contact-left, .contact-right{
         flex-basis: 100%;
     }
+    .serviceSection {
+        padding: 20px; /* Reduce padding for small screens */
+    }
+    .sub-title {
+        font-size: 18px; /* Adjust the font size */
+        text-align: center; /* Center-align the title */
+    }
+    .services-list {
+        grid-template-columns: 1fr; /* Single column layout */
+        grid-gap: 20px; /* Reduce gap between items */
+        margin-top: 30px; /* Reduce top margin */
+    }
+    .services-list div {
+        padding: 20px; /* Reduce padding inside service boxes */
+        font-size: 12px; /* Adjust font size for readability */
+    }
+    .services-list div i {
+        font-size: 40px; /* Reduce icon size */
+        margin-bottom: 20px; /* Adjust spacing below icon */
+    }
+    .services-list div h2 {
+        font-size: 24px; /* Reduce heading size */
+        margin-bottom: 10px; /* Reduce bottom margin */
+    }
+    .services-list div a {
+        font-size: 10px; /* Adjust link font size */
+        margin-top: 10px; /* Reduce margin above the link */
+    }
+    .services-list div:hover {
+        transform: translateY(-5px); /* Lessen hover effect on smaller screens */
+    }
     .portfolio {
         padding: 20px;
     }
@@ -441,11 +472,12 @@ nav .fas{
         border-radius: 10px;
         overflow: hidden;
         max-height: 400px; /* Constrain the overall height of each work box */
-        max-height: 200px; 
+        max-width: 200px; 
     }
     .work img {
         height: auto; /* Allow the image to resize based on content */
         max-height: 200px; /* Ensure images don’t dominate the work box */
+        max-width: 180px
     }
     .layer {
         padding: 10px 20px;
