@@ -472,16 +472,19 @@ nav .fas{
         border-radius: 10px;
         overflow: hidden;
         max-height: 400px; /* Constrain the overall height of each work box */
+        max-width: 200px
     }
     .work img {
         height: auto; /* Allow the image to resize based on content */
         max-height: 200px; /* Ensure images don’t dominate the work box */
+        max-width: 180px
     }
     .layer {
         padding: 10px 20px;
         font-size: 12px;
         overflow-y: auto; /* Add scroll if content overflows */
         max-height: 100%; /* Ensure content doesn't exceed box dimensions */
+        max-width:100%;
     }
     .layer h3 {
         font-size: 16px;
