@@ -453,6 +453,7 @@ form .btn2{
     .services-list {
         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
         grid-gap: 20px;
+        max-width:250px;
     }
 
     .services-list div {
