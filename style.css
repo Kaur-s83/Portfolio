@@ -287,7 +287,7 @@ nav ul li a:hover{
     background: #fff;
     width: 60px;
     height: 60px;
-    border-radius: 10%;
+    border-radius: 50%;
     text-align: center;
     margin-left: 10px;
 }
