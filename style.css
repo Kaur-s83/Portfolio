@@ -241,6 +241,7 @@ nav ul li a:hover{
     border-radius: 10px;
     position: relative;
     overflow: hidden;
+    padding: 15px;
 }
 .work img{
     width: 100%;
@@ -313,7 +314,6 @@ nav ul li a:hover{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-bottom:40px;
 
 }
 .contactSection .content{
@@ -507,7 +507,7 @@ nav .fas{
         margin-right: 20px;
     }
     .work{
-        padding: 40px;
+        padding: 20px;
         width: 100%;
     }
     .contactSection{
@@ -524,3 +524,4 @@ nav .fas{
         width: 100%;
     }
 }
+s
