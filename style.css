@@ -635,11 +635,11 @@ nav .fas{
     .contactCtr{
         flex-direction: column;
     }
-    .contactCtr .contactInfo{
+    .contactCtr.contactInfo{
         margin-bottom: 40px;
     }
-    .contactCtr .contactInfo, 
-    .contactCtr .contactForm{
+    .contactCtr.contactInfo, 
+    .contactCtr.contactForm{
         width: 100%;
     }
 }
