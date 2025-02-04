@@ -255,7 +255,7 @@ nav ul li a:hover{
     grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
     position: relative;
     overflow: hidden;
-    padding: 40px;
+    padding: 10px;
 }
 .work img{
     width: 100%;
